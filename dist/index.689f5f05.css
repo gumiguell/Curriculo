@@ -4,15 +4,9 @@ body {
 }
 
 :root {
-  --font-nunito: Nunito;
-  --font-size-3xl: 22px;
-  --font-size-sm: 14px;
+  --font-rubik: Rubik;
   --color-white: #fff;
-  --color-slategray: #675d82;
-  --color-gray-100: #7d7d7d;
-  --color-gray-200: #201735;
-  --color-darkslategray: #393939;
-  --color-darkkhaki: #9d914e;
+  --color-dodgerblue: #0094ff;
 }
 
 /*# sourceMappingURL=index.689f5f05.css.map */

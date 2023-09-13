@@ -1,174 +1,146 @@
-.cursos-e-extra-curriculares {
+.frame-child,
+.frame-inner,
+.frame-item {
   position: absolute;
   top: 0;
-  left: 0;
-  display: inline-block;
-  width: 423px;
+  left: 46.65px;
+  background-color: var(--color-dodgerblue);
+  width: 41.27px;
+  height: 113.98px;
 }
-.ensino-tcnico-em {
-  margin: 0;
+.frame-inner,
+.frame-item {
+  left: 115.95px;
 }
-.colgio-tcnico-de {
-  margin: 0;
-  color: var(--color-darkslategray);
-}
-.ensino-tcnico-em-container {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  font-size: var(--font-size-sm);
-  line-height: 119.2%;
-  display: inline-block;
-  white-space: pre-wrap;
-  width: 542px;
-  color: var(--color-gray-100);
-}
-.cursos-e-extra-curriculares-parent {
-  position: absolute;
-  top: 574px;
-  left: 27px;
-  width: 542px;
-  height: 217px;
-}
-.educao,
-.ensino-fundamental-final-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 140.62px;
-}
-.ensino-fundamental-final-container {
-  top: 30px;
-  left: 1.77px;
-  font-size: var(--font-size-sm);
-  line-height: 115.2%;
-  width: 542.23px;
-  color: var(--color-gray-100);
-}
-.educao-parent {
-  position: absolute;
-  top: 412px;
-  left: 27px;
-  width: 544px;
-  height: 142px;
-}
-.conhecimento-com-edio-container,
-.conhecimentos-e-habilidades-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 496.21px;
-}
-.conhecimento-com-edio-container {
-  top: 30px;
-  left: 1.77px;
-  font-size: var(--font-size-sm);
-  line-height: 115.2%;
-  color: var(--color-darkslategray);
-  width: 542.23px;
-}
-.conhecimentos-e-habilidades-parent {
-  position: absolute;
-  top: 818px;
-  left: 25px;
-  width: 544px;
-  height: 158px;
-}
-.meu-objetivo-profissional-container,
-.objetivos {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 132.68px;
-}
-.meu-objetivo-profissional-container {
-  top: 27px;
-  font-size: var(--font-size-sm);
-  line-height: 115.2%;
-  color: var(--color-darkslategray);
-  width: 544px;
-}
-.objetivos-parent {
-  position: absolute;
-  top: 295px;
-  left: 29px;
-  width: 544px;
-  height: 107px;
-}
-.dados-pessoais {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 214.1px;
-}
-.e-mail {
-  color: var(--color-gray-100);
-}
-.e-mail-gustavomiguel2005hot {
-  position: absolute;
-  top: 30px;
-  left: 1.09px;
-  font-size: var(--font-size-sm);
-  line-height: 115.2%;
-  display: inline-block;
-  width: 542.91px;
-  color: var(--color-darkslategray);
-}
-.dados-pessoais-parent {
-  position: absolute;
-  top: 135px;
-  left: 29px;
-  width: 544px;
-  height: 142px;
-}
-.gustavo-miguel {
-  font-weight: 900;
-}
-.macedo-oliveira {
-  font-weight: 800;
-}
-.gustavo-miguel-macedo-container,
-.programador-frontend {
-  position: absolute;
-  top: 52px;
-  left: 30px;
-  color: var(--color-gray-200);
-  display: inline-block;
-  width: 454px;
-}
-.programador-frontend {
-  top: 74px;
-  font-size: 20px;
-  font-weight: 700;
-  height: 37px;
-}
-.group-child,
-.group-inner,
-.group-item {
-  position: absolute;
-  top: 0;
-  left: 23.74px;
-  background-color: var(--color-slategray);
-  width: 21px;
-  height: 58px;
-}
-.group-inner,
-.group-item {
-  left: 59px;
-}
-.group-inner {
-  left: 95px;
+.frame-inner {
+  left: 186.7px;
 }
 .rectangle-parent {
   position: absolute;
-  top: -9px;
-  left: 121px;
-  width: 116px;
-  height: 52.92px;
+  top: 0;
+  left: 131px;
+  width: 227.97px;
+  height: 104px;
+}
+.macedo-oliveira {
+  font-size: 80px;
+  font-weight: 600;
+}
+.gustavo-miguel-macedo-container {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 424.5px);
+  line-height: 70px;
+  display: inline-block;
+  width: 849px;
+  height: 201px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.frame2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 849px;
+  height: 220px;
+  overflow: hidden;
+}
+.programador-front-end {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  font-weight: 700;
+  width: 363px;
+  height: 25px;
+}
+.frame3 {
+  margin: 0;
+  position: absolute;
+  top: 149px;
+  left: 230px;
+  width: 363px;
+  height: 71px;
+  overflow: hidden;
+  font-size: 25px;
+  color: #555;
+  font-family: inherit;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dodgerblue);
+  width: 211px;
+  height: 25px;
+}
+.frame4,
+.vector-icon {
+  position: absolute;
+  top: 152px;
+  left: 5px;
+  width: 211px;
+  height: 68px;
+  overflow: hidden;
+}
+.vector-icon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.iconmonstr-linkedin-3-1 {
+  text-decoration: none;
+  position: absolute;
+  top: 183px;
+  left: 5px;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 97.53%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 2.47%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.iconmonstr-github-1-1 {
+  text-decoration: none;
+  position: absolute;
+  top: 183px;
+  left: 53px;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame,
+.frame1 {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  width: 849px;
+  height: 220px;
+  overflow: hidden;
+}
+.frame {
+  top: 474px;
+  left: 131px;
+  width: 1014px;
 }
 .curriculo,
 .curriculo-parent {
@@ -186,7 +158,7 @@
   position: relative;
   width: 100%;
   text-align: left;
-  font-size: var(--font-size-3xl);
-  color: var(--color-darkkhaki);
-  font-family: var(--font-nunito);
+  font-size: 90px;
+  color: #171717;
+  font-family: var(--font-rubik);
 }
