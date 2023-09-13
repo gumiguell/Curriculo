@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --font-size-3xl: 22px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-slategray: #675d82;
+  --color-gray-100: #7d7d7d;
+  --color-gray-200: #201735;
+  --color-darkslategray: #393939;
+  --color-darkkhaki: #9d914e;
+}

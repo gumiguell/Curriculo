@@ -1,0 +1,192 @@
+.cursos-e-extra-curriculares {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 423px;
+}
+.ensino-tcnico-em {
+  margin: 0;
+}
+.colgio-tcnico-de {
+  margin: 0;
+  color: var(--color-darkslategray);
+}
+.ensino-tcnico-em-container {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: var(--font-size-sm);
+  line-height: 119.2%;
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 542px;
+  color: var(--color-gray-100);
+}
+.cursos-e-extra-curriculares-parent {
+  position: absolute;
+  top: 574px;
+  left: 27px;
+  width: 542px;
+  height: 217px;
+}
+.educao,
+.ensino-fundamental-final-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 140.62px;
+}
+.ensino-fundamental-final-container {
+  top: 30px;
+  left: 1.77px;
+  font-size: var(--font-size-sm);
+  line-height: 115.2%;
+  width: 542.23px;
+  color: var(--color-gray-100);
+}
+.educao-parent {
+  position: absolute;
+  top: 412px;
+  left: 27px;
+  width: 544px;
+  height: 142px;
+}
+.conhecimento-com-edio-container,
+.conhecimentos-e-habilidades-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 496.21px;
+}
+.conhecimento-com-edio-container {
+  top: 30px;
+  left: 1.77px;
+  font-size: var(--font-size-sm);
+  line-height: 115.2%;
+  color: var(--color-darkslategray);
+  width: 542.23px;
+}
+.conhecimentos-e-habilidades-parent {
+  position: absolute;
+  top: 818px;
+  left: 25px;
+  width: 544px;
+  height: 158px;
+}
+.meu-objetivo-profissional-container,
+.objetivos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 132.68px;
+}
+.meu-objetivo-profissional-container {
+  top: 27px;
+  font-size: var(--font-size-sm);
+  line-height: 115.2%;
+  color: var(--color-darkslategray);
+  width: 544px;
+}
+.objetivos-parent {
+  position: absolute;
+  top: 295px;
+  left: 29px;
+  width: 544px;
+  height: 107px;
+}
+.dados-pessoais {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 214.1px;
+}
+.e-mail {
+  color: var(--color-gray-100);
+}
+.e-mail-gustavomiguel2005hot {
+  position: absolute;
+  top: 30px;
+  left: 1.09px;
+  font-size: var(--font-size-sm);
+  line-height: 115.2%;
+  display: inline-block;
+  width: 542.91px;
+  color: var(--color-darkslategray);
+}
+.dados-pessoais-parent {
+  position: absolute;
+  top: 135px;
+  left: 29px;
+  width: 544px;
+  height: 142px;
+}
+.gustavo-miguel {
+  font-weight: 900;
+}
+.macedo-oliveira {
+  font-weight: 800;
+}
+.gustavo-miguel-macedo-container,
+.programador-frontend {
+  position: absolute;
+  top: 52px;
+  left: 30px;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 454px;
+}
+.programador-frontend {
+  top: 74px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 37px;
+}
+.group-child,
+.group-inner,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 23.74px;
+  background-color: var(--color-slategray);
+  width: 21px;
+  height: 58px;
+}
+.group-inner,
+.group-item {
+  left: 59px;
+}
+.group-inner {
+  left: 95px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: -9px;
+  left: 121px;
+  width: 116px;
+  height: 52.92px;
+}
+.curriculo,
+.curriculo-parent {
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+}
+.curriculo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+}
+.curriculo-parent {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkkhaki);
+  font-family: var(--font-nunito);
+}
