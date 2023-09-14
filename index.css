@@ -1,90 +1,110 @@
-.frame-child,
-.frame-inner,
-.frame-item {
+.vector-icon {
   position: absolute;
-  top: 0;
-  left: 46.65px;
-  background-color: var(--color-dodgerblue);
-  width: 41.27px;
-  height: 113.98px;
+  top: 5.06rem;
+  left: 0;
+  width: 80.5rem;
+  height: 22.44rem;
 }
-.frame-inner,
-.frame-item {
-  left: 115.95px;
-}
-.frame-inner {
-  left: 186.7px;
-}
-.rectangle-parent {
-  position: absolute;
-  top: 0;
-  left: 131px;
-  width: 227.97px;
-  height: 104px;
-}
-.macedo-oliveira {
-  font-size: 80px;
-  font-weight: 600;
-}
-.gustavo-miguel-macedo-container {
+.sobre-mim {
   margin: 0;
-  position: absolute;
-  top: 0;
-  left: calc(50% - 424.5px);
-  line-height: 70px;
-  display: inline-block;
-  width: 849px;
-  height: 201px;
+  top: calc(50% - 339.5px);
+  left: calc(50% - 647.5px);
   font-size: inherit;
+  line-height: 4.38rem;
+  font-weight: 700;
   font-family: inherit;
+  width: 27rem;
+  height: 4.38rem;
 }
-.frame2 {
+.objetivos,
+.sobre-mim,
+.texto {
+  position: absolute;
+  display: inline-block;
+}
+.texto {
+  top: 7.94rem;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  line-height: 115.2%;
+  width: 39.44rem;
+  height: 13.94rem;
+}
+.objetivos {
+  margin: 0;
+  top: calc(50% - 9.5px);
+  left: calc(50% + 261.5px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: right;
+  width: 24.13rem;
+  height: 4.38rem;
+}
+.image-6-icon {
+  position: absolute;
+  right: 6.56rem;
+  bottom: 26.81rem;
+  border-radius: 161.5px;
+  width: 16rem;
+  height: 15.44rem;
+  object-fit: cover;
+}
+.meu-objetivo-profissional {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.meu-objetivo-profissional-container {
+  position: absolute;
+  top: 28.94rem;
+  left: 41.06rem;
+  font-size: var(--font-size-11xl);
+  line-height: 115.2%;
+  display: inline-block;
+  text-align: right;
+  width: 39.44rem;
+  height: 13.94rem;
+}
+.vector-parent {
+  position: absolute;
+  top: 71.31rem;
+  left: 4.56rem;
+  width: 80.94rem;
+  height: 42.44rem;
+}
+.frame-icon {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 849px;
-  height: 220px;
+  left: 8.19rem;
+  width: 73.63rem;
+  height: 6.5rem;
   overflow: hidden;
 }
-.programador-front-end {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  font-weight: 700;
-  width: 363px;
-  height: 25px;
-}
-.frame3 {
+.projetos {
   margin: 0;
   position: absolute;
-  top: 149px;
-  left: 230px;
-  width: 363px;
-  height: 71px;
-  overflow: hidden;
-  font-size: 25px;
-  color: #555;
+  top: calc(50% + 680px);
+  left: calc(50% - 216px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-weight: 700;
   font-family: inherit;
+  display: inline-block;
+  width: 27rem;
+  height: 4.38rem;
 }
-.rectangle-div {
+.frame-child {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-dodgerblue);
-  width: 211px;
-  height: 25px;
+  top: 5.06rem;
+  left: 7.38rem;
+  border-radius: 10px;
+  background-color: #0094ff;
+  width: 28.19rem;
+  height: 1.56rem;
 }
-.frame4,
-.vector-icon {
+.vector-icon1 {
   position: absolute;
-  top: 152px;
-  left: 5px;
-  width: 211px;
-  height: 68px;
-  overflow: hidden;
-}
-.vector-icon {
   height: 100%;
   width: 100%;
   top: 0;
@@ -92,20 +112,20 @@
   bottom: 0;
   left: 0;
   max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
-  object-fit: cover;
 }
 .iconmonstr-linkedin-3-1 {
   text-decoration: none;
   position: absolute;
-  top: 183px;
-  left: 5px;
-  width: 37px;
-  height: 37px;
+  top: 7rem;
+  left: 7.38rem;
+  width: 2.31rem;
+  height: 2.31rem;
   overflow: hidden;
   cursor: pointer;
 }
-.vector-icon1 {
+.vector-icon2 {
   position: absolute;
   height: 97.53%;
   width: 100%;
@@ -116,49 +136,86 @@
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-  object-fit: cover;
 }
 .iconmonstr-github-1-1 {
   text-decoration: none;
   position: absolute;
-  top: 183px;
-  left: 53px;
-  width: 37px;
-  height: 37px;
+  top: 7rem;
+  left: 10.13rem;
+  width: 2.31rem;
+  height: 2.31rem;
   overflow: hidden;
   cursor: pointer;
 }
-.frame,
-.frame1 {
+.group-icon,
+.icon-whatsapp {
   position: absolute;
-  top: 0;
-  left: 165px;
-  width: 849px;
-  height: 220px;
+  height: 16.34%;
+  width: 3.25%;
+  top: 51.36%;
+  right: 72.09%;
+  bottom: 32.3%;
+  left: 24.65%;
+  max-width: 100%;
   overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.icon-whatsapp {
+  height: 16.82%;
+  width: 3.65%;
+  top: 50.91%;
+  right: 76.04%;
+  bottom: 32.27%;
+  left: 20.32%;
+}
+.estudante-front-end,
+.gustavo-miguel {
+  position: absolute;
+  display: inline-block;
+  font-weight: 700;
+}
+.gustavo-miguel {
+  margin: 0;
+  top: calc(50% - 110px);
+  left: calc(50% - 394px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-family: inherit;
+  width: 49.31rem;
+  height: 4.38rem;
+}
+.estudante-front-end {
+  top: 4.94rem;
+  left: 36.63rem;
+  font-size: 1.56rem;
+  color: #555;
+  width: 22.69rem;
+  height: 1.56rem;
 }
 .frame {
-  top: 474px;
-  left: 131px;
-  width: 1014px;
-}
-.curriculo,
-.curriculo-parent {
-  background-color: var(--color-white);
-  height: 1024px;
+  position: absolute;
+  top: 25.13rem;
+  left: calc(50% - 507px);
+  width: 63.38rem;
+  height: 13.75rem;
   overflow: hidden;
+  font-size: 5.63rem;
+  color: #171717;
 }
 .curriculo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1440px;
-}
-.curriculo-parent {
   position: relative;
+  background: linear-gradient(
+    180deg,
+    #fff 24.48%,
+    #0997ff 41.15%,
+    #00375f 71.88%
+  );
   width: 100%;
+  height: 201.75rem;
+  overflow: hidden;
   text-align: left;
-  font-size: 90px;
-  color: #171717;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
   font-family: var(--font-rubik);
 }

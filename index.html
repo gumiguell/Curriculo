@@ -8,45 +8,63 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;0,700;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap"
     />
   </head>
   <body>
-    <div class="curriculo-parent">
-      <div class="curriculo">
-        <div class="rectangle-parent">
-          <div class="frame-child"></div>
-          <div class="frame-item"></div>
-          <div class="frame-inner"></div>
-        </div>
-        <div class="frame">
-          <div class="frame1">
-            <div class="frame2">
-              <h1 class="gustavo-miguel-macedo-container">
-                <b>GUSTAVO MIGUEL </b>
-                <span class="macedo-oliveira">MACEDO OLIVEIRA</span>
-              </h1>
-            </div>
-            <h2 class="frame3">
-              <i class="programador-front-end">PROGRAMADOR FRONT-END</i>
-            </h2>
-            <div class="frame4">
-              <div class="rectangle-div"></div>
-            </div>
-            <a
-              class="iconmonstr-linkedin-3-1"
-              id="iconmonstrLinkedin31"
-            >
-              <img class="vector-icon" alt="" src="./public/undefined.png" />
-            </a>
-            <a
-              class="iconmonstr-github-1-1"
-              id="iconmonstrGithub11"
-            >
-              <img class="vector-icon1" alt="" src="./public/undefined1.png" />
-            </a>
-          </div>
-        </div>
+    <div class="curriculo">
+      <div class="vector-parent">
+        <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+        <h1 class="sobre-mim">Sobre mim</h1>
+        <b class="texto">texto</b>
+        <h1 class="objetivos">Objetivos</h1>
+        <img class="image-6-icon" alt="" src="./public/imgGustavo@2x.png" />
+
+        <b class="meu-objetivo-profissional-container">
+          <p class="meu-objetivo-profissional">
+            Meu objetivo profissional atualmente é ingressar no mercado de
+            trabalho, adquirir experiência e conhecimento, desenvolver
+            habilidades e contribuir positivamente. Acredito na importância de
+            trabalhar duro, sempre estar disposto a aprender e superar desafios.
+          </p>
+        </b>
+      </div>
+      <img class="frame-icon" alt="" src="./public/frame.svg" />
+
+      <h1 class="projetos">// Projetos</h1>
+      <div class="frame">
+        <div class="frame-child"></div>
+        <a
+          class="iconmonstr-linkedin-3-1"
+          href="https://www.linkedin.com/in/gumiguel/"
+          id="iconmonstrLinkedin31"
+        >
+          <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+        </a>
+        <a
+          class="iconmonstr-github-1-1"
+          href="https://github.com/gumiguell"
+          id="iconmonstrGithub11"
+        >
+          <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+        </a>
+        <img
+          class="group-icon"
+          alt=""
+          src="./public/group.svg"
+          id="groupIcon"
+        />
+
+        <img
+          class="icon-whatsapp"
+          alt=""
+          src="./public/-icon-whatsapp.svg"
+          id="iconWhatsapp"
+        />
+
+        <h1 class="gustavo-miguel">GUSTAVO MIGUEL</h1>
+        <i class="estudante-front-end">ESTUDANTE FRONT-END</i>
       </div>
     </div>
 
@@ -62,6 +80,24 @@
       if (iconmonstrGithub11) {
         iconmonstrGithub11.addEventListener("click", function () {
           window.open("https://github.com/gumiguell");
+        });
+      }
+      
+      var groupIcon = document.getElementById("groupIcon");
+      if (groupIcon) {
+        groupIcon.addEventListener("click", function () {
+          window.open(
+            "https://drive.google.com/file/d/1VT3zUmE9SnMV76JX5ZnaR77Zvz9qPBcK/view?usp=sharing"
+          );
+        });
+      }
+      
+      var iconWhatsapp = document.getElementById("iconWhatsapp");
+      if (iconWhatsapp) {
+        iconWhatsapp.addEventListener("click", function () {
+          window.open(
+            "https://api.whatsapp.com/send/?phone=5519995398942&text&type=phone_number&app_absent=0"
+          );
         });
       }
       </script>

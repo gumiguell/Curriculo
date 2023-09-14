@@ -575,6 +575,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"j4kuM":[function(require,module,exports) {
 
-},{}]},["f3Xap","j4kuM"], "j4kuM", "parcelRequire3bcd")
+},{}]},["f3Xap","j4kuM"], "j4kuM", "parcelRequire774c")
 
 //# sourceMappingURL=Curriculo.3464ddca.js.map

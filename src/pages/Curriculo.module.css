@@ -1,0 +1,223 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    #fff 24.48%,
+    #0997ff 41.15%,
+    #00375f 71.88%
+  );
+  width: 90rem;
+  height: 201.75rem;
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 8.19rem;
+  width: 14.25rem;
+  height: 6.5rem;
+}
+.frameChild {
+  position: absolute;
+  top: 5.06rem;
+  left: 7.38rem;
+  border-radius: 10px;
+  background-color: #0094ff;
+  width: 28.19rem;
+  height: 1.56rem;
+}
+.iconmonstrLinkedin31 {
+  text-decoration: none;
+  position: absolute;
+  top: 7rem;
+  left: 7.38rem;
+  width: 2.31rem;
+  height: 2.31rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vectorIcon2 {
+  height: 97.53%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 2.47%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupIcon,
+.iconmonstrGithub11,
+.vectorIcon2 {
+  position: absolute;
+  overflow: hidden;
+}
+.iconmonstrGithub11 {
+  text-decoration: none;
+  top: 7rem;
+  left: 10.13rem;
+  width: 2.31rem;
+  height: 2.31rem;
+  cursor: pointer;
+}
+.groupIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconDocumentDownload,
+.iconWhatsapp {
+  position: absolute;
+  height: 16.34%;
+  width: 3.25%;
+  top: 51.36%;
+  right: 72.09%;
+  bottom: 32.3%;
+  left: 24.65%;
+}
+.iconWhatsapp {
+  height: 16.82%;
+  width: 3.65%;
+  top: 50.91%;
+  right: 76.04%;
+  bottom: 32.27%;
+  left: 20.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.estudanteFrontEnd,
+.gustavoMiguel {
+  position: absolute;
+  display: inline-block;
+  font-weight: 700;
+}
+.gustavoMiguel {
+  margin: 0;
+  top: calc(50% - 110px);
+  left: calc(50% - 394px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-family: inherit;
+  width: 49.31rem;
+  height: 4.38rem;
+}
+.estudanteFrontEnd {
+  top: 4.94rem;
+  left: 36.63rem;
+  font-size: 1.56rem;
+  color: #555;
+  width: 22.69rem;
+  height: 1.56rem;
+}
+.frame {
+  position: absolute;
+  top: 25.13rem;
+  left: 13.31rem;
+  width: 63.38rem;
+  height: 13.75rem;
+  overflow: hidden;
+  font-size: 5.63rem;
+  color: #171717;
+}
+.vectorIcon3 {
+  position: absolute;
+  top: 5.06rem;
+  left: 0;
+  width: 80.5rem;
+  height: 22.44rem;
+}
+.sobreMim {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 220px);
+  left: calc(50% - 647.5px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 27rem;
+  height: 4.38rem;
+}
+.meuObjetivoProfissional {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,
+.meuObjetivoProfissionalContainer {
+  position: absolute;
+  font-size: var(--font-size-11xl);
+  line-height: 115.2%;
+  display: inline-block;
+  width: 39.44rem;
+  height: 13.94rem;
+}
+.meuObjetivoProfissionalContainer {
+  top: 28.5rem;
+  left: 41.06rem;
+  text-align: right;
+}
+.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+  top: 7.94rem;
+  left: 0;
+}
+.objetivos {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 110px);
+  left: calc(50% + 261.5px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 24.13rem;
+  height: 4.38rem;
+}
+.image6Icon {
+  position: absolute;
+  top: -0.06rem;
+  left: 55.63rem;
+  border-radius: 161.5px;
+  width: 16rem;
+  height: 15.44rem;
+  object-fit: cover;
+}
+.vectorParent {
+  position: absolute;
+  top: 71.31rem;
+  left: 4.56rem;
+  width: 80.94rem;
+  height: 27.5rem;
+}
+.projetos {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 680px);
+  left: calc(50% - 216px);
+  font-size: inherit;
+  line-height: 4.38rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 27rem;
+  height: 4.38rem;
+}
+.curriculo {
+  position: relative;
+  width: 100%;
+  height: 201.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}
