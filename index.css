@@ -124,7 +124,17 @@
   height: 2.31rem;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
+
+.iconmonstr-linkedin-3-1:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
 .vector-icon2 {
   position: absolute;
   height: 97.53%;
@@ -146,7 +156,17 @@
   height: 2.31rem;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
+
+.iconmonstr-github-1-1:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
 .group-icon,
 .icon-whatsapp {
   position: absolute;
@@ -160,7 +180,17 @@
   overflow: hidden;
   max-height: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
+
+.icon-whatsapp:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
 .icon-whatsapp {
   height: 16.82%;
   width: 3.65%;
