@@ -55,10 +55,6 @@
   right: 6.56rem;
 }
 
-.meu-objetivo-profissional {
-  margin-block: 0 5px;
-}
-
 .meu-objetivo-profissional-container {
   font-size: var(--font-size-11xl);
   text-align: right;
@@ -103,10 +99,14 @@
 }
 
 .frame-child {
-  background-color: #0094ff;
+  cursor: pointer;
+  background-color: #0f78e0;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   width: 28.19rem;
   height: 1.56rem;
+  display: flex;
   position: absolute;
   top: 5.06rem;
   left: 7.38rem;
@@ -188,7 +188,16 @@
   overflow: hidden;
 }
 
-.icon-whatsapp:hover {
+.group-icon {
+  cursor: pointer;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  transition: transform .3s;
+  display: flex;
+}
+
+.group-icon:hover, .icon-whatsapp:hover {
   transform: scale(1.2);
 }
 
@@ -206,13 +215,36 @@
 
 .gustavo-miguel {
   font-size: inherit;
-  width: 49.31rem;
-  height: 4.38rem;
-  margin: 0;
+  cursor: pointer;
   font-family: inherit;
   line-height: 4.38rem;
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-xl);
+  letter-spacing: 0;
+  white-space: nowrap;
+  background: linear-gradient(45deg, #232323, #004c7b) 0 0 / 400% 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  align-self: center;
+  width: 789px;
+  height: 4.38rem;
+  margin: -1px 0 0 1px;
+  font-weight: 700;
+  line-height: 70px;
+  transition: all .2s;
+  animation: 1s linear infinite alternate degrade;
   top: calc(50% - 110px);
   left: calc(50% - 394px);
+}
+
+@keyframes degrade {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
 }
 
 .estudante-front-end {

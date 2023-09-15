@@ -51,10 +51,8 @@
   height: 15.44rem;
   object-fit: cover;
 }
-.meu-objetivo-profissional {
-  margin-block-start: 0;
-  margin-block-end: 5px;
-}
+
+
 .meu-objetivo-profissional-container {
   position: absolute;
   top: 28.94rem;
@@ -99,10 +97,17 @@
   top: 5.06rem;
   left: 7.38rem;
   border-radius: 10px;
-  background-color: #0094ff;
+  background-color: #0f78e0;
   width: 28.19rem;
   height: 1.56rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
 }
+
+
 .vector-icon1 {
   position: absolute;
   height: 100%;
@@ -187,6 +192,19 @@
   transition: transform 0.3s ease;
 }
 
+.group-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.group-icon:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
 .icon-whatsapp:hover {
   transform: scale(1.2); /* Aumenta o tamanho em 20% */
 }
@@ -214,7 +232,47 @@
   font-family: inherit;
   width: 49.31rem;
   height: 4.38rem;
+  align-self: center;
+  cursor: pointer;
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 70px;
+  margin-left: 1.0px;
+  margin-top: -1px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 789px;
+
+  
+  background: linear-gradient(45deg, #232323, #004c7b);
+  background-size: 400% 100%;
+  /* animation: animate-enter-frames 0.70s ease-in-out 0.00s 1 normal forwards; */
+  animation: degrade 1s linear infinite alternate;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+/* @keyframes animate-enter-frames {
+  from{opacity: 0;
+    transform: translate(25px, 0);
+    }
+    to{opacity: 1;
+    transform: translate(0,0);
+  }
+} */
+
+@keyframes degrade {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
 .estudante-front-end {
   top: 4.94rem;
   left: 36.63rem;
